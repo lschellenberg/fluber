@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTextPrimaryDark">#111111</color>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#EEEEEE</color>
+    <color name="colorDivider">#888888</color>
+    <color name="colorDividerPressed">#666666</color>
+</resources>

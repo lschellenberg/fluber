@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fluber</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search Flickr For....</string>
+    <string name="search_history">Search History</string>
+    <string name="clear_history">clear</string>
+    <string name="search_for_photos">To see photos, enter a term and we\'ll try to find it.</string>
+    <string name="gallery__not_items_found">No items found</string>
+</resources>
