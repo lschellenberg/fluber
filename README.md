@@ -18,7 +18,10 @@ So far point 1 is done.
 
 # Dependencies
 
-* RXJava * Retrofit * Picasso * GSON
+* RXJava
+* Retrofit
+* Picasso
+* GSON
 
 # Build
 
