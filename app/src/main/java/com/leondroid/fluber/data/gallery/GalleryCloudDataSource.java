@@ -15,7 +15,7 @@ public class GalleryCloudDataSource implements GalleryDataSource {
 
     @Override
     public Observable<FlickerResponse> load(String searchTerm, int page) {
-        return networkModule.provideFlickerSearchApi().list(searchTerm, page);
+        return networkModule.provideFlickerSearchApi().list(networkModule.flickrApiKey, searchTerm, page);
     }
 
     @Override

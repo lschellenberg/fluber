@@ -1,4 +1,5 @@
 # Fluber
+
 Fluber loads pictures from Flickr using Flickr's search api.
 
 The app supports landscape and portrait. It uses an action bar for search and shows a search history at the bottom of the search
@@ -14,7 +15,7 @@ The development is considered done, when:
 5. Material Design is integrated and styling and a clean resource .
 6. A staggered way to display the images in the list is used and a transformation of the image size is supported.
 
-So far point 1 is done.
+So far point 1 is done. The list above is considered also as a priority list.
 
 # Dependencies
 
@@ -25,4 +26,14 @@ So far point 1 is done.
 
 # Build
 
-The code should be easily build and run using Android Studio.
+Import project into Android Studio. In app/build.gradle provide your Flickr api key
+
+```groovy
+android {
+    ... 
+    defaultConfig {
+        ...
+        manifestPlaceholders = [flickrApiKey:   "YOUR_FLICKR_API_KEY"]
+    }
+}
+```

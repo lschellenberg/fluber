@@ -13,7 +13,10 @@ public class NetworkModule {
     private final Retrofit retrofit;
     private FlickerService service;
 
-    public NetworkModule() {
+    public final String flickrApiKey;
+
+    public NetworkModule(String flickrApiKey) {
+        this.flickrApiKey = flickrApiKey;
         RxJavaCallAdapterFactory rxAdapter = RxJavaCallAdapterFactory.createWithScheduler(Schedulers.io());
 
         retrofit = new Retrofit.Builder()
