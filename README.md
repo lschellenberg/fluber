@@ -1,9 +1,9 @@
 # Fluber
-Fluber loads pictures from Flickr using the Flickr's search api.
+Fluber loads pictures from Flickr using Flickr's search api.
 
 The app supports landscape and portrait. It uses an action bar for search and shows a search history at the bottom of the search
-field. It might be that on smaller devices in landscape the seach history is invisible. Starting using a Presenter pattern
-it soon turned that paging is better done with a ViewModel. 
+field. It might be that on smaller devices the search history is invisible in landscape. Starting using a Presenter pattern
+it soon turned out that paging is better done with a ViewModel. Search uses MVP and Gallery doesn't.
 
 The development is considered done, when:
 
