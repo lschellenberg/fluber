@@ -1,7 +1,6 @@
 package com.leondroid.fluber.presentation.gallery;
 
 import android.databinding.ObservableArrayList;
-import android.util.Log;
 
 import com.leondroid.fluber.data.api.model.FlickerResponse;
 import com.leondroid.fluber.data.api.model.Photo;
@@ -47,6 +46,7 @@ public class SearchTermResultViewModel extends ObservableArrayList<Photo> implem
 
         this.searchTerm = searchTerm;
         page = 1;
+        pendingLoad = -1;
 
         compositeSubscription.add(galleryRepository
                 .load(searchTerm, page)
